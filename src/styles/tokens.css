@@ -1,0 +1,34 @@
+/* Hallmark · macrostructure: Marquee Hero · tone: warm editorial coffee brand · anchor hue: 75
+ * vibe: "Warm editorial coffee brand" · paper oklch(95% 0.02 85) · accent oklch(65% 0.1 75) muted gold
+ * display: Cormorant Garamond · body: Plus Jakarta Sans
+ * axes: light / high-contrast-serif / warm
+ */
+
+@theme {
+  --color-paper: oklch(95% 0.02 85);       /* #F6F0E6 */
+  --color-paper-2: oklch(97% 0.01 85);     /* #FBF8F2 */
+  --color-paper-3: oklch(90% 0.03 85);     /* darker cream */
+  --color-ink: oklch(20% 0.02 50);         /* #241B16 text primary */
+  --color-ink-2: oklch(55% 0.03 50);       /* #79695C text secondary */
+  --color-ink-3: oklch(70% 0.02 50);       /* muted text */
+  --color-accent: oklch(65% 0.1 75);       /* #A9855B muted gold */
+  --color-espresso: oklch(30% 0.05 50);    /* #3B2A1D primary dark */
+  --color-brown: oklch(40% 0.06 50);       /* #5A4030 primary brown */
+  --color-brown-light: oklch(50% 0.07 50); /* #80624A secondary brown */
+
+  --font-display: 'Cormorant Garamond', ui-serif, Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-in: cubic-bezier(0.8, 0, 0.8, 0.2);
+  --ease-in-out: cubic-bezier(0.7, 0, 0.3, 1);
+
+  --dur-fast: 150ms;
+  --dur-base: 300ms;
+  --dur-slow: 700ms;
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-full: 9999px;
+}
