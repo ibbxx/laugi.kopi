@@ -52,27 +52,57 @@ export const MenuSection: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
               transition={{ duration: 0.3, ease: [0.2, 0.8, 0.2, 1] }}
-              className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12"
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
             >
               {currentCategory?.items.map((item) => (
-                <div 
-                  key={item.id} 
-                  className="flex flex-col border-b border-border/5 pb-6 group"
+                <div
+                  key={item.id}
+                  className="group flex flex-col rounded-2xl overflow-hidden border border-border/10 bg-white/60 hover:shadow-lg transition-shadow duration-300"
                 >
-                  <div className="flex justify-between items-baseline mb-2 gap-4">
-                    <h3 className="text-xl text-espresso font-display leading-tight group-hover:text-accent transition-colors duration-fast">
-                      {item.name}
-                    </h3>
-                    <div className="flex-grow border-b border-dotted border-border/20 hidden sm:block mx-4" />
-                    <span className="text-sm font-medium tracking-wide text-ink shrink-0">
-                      {formatPrice(item.price)}
-                    </span>
+                  {/* Image area */}
+                  <div className="relative w-full aspect-[4/3] overflow-hidden bg-stone-100">
+                    {item.image ? (
+                      <img
+                        src={item.image}
+                        alt={item.name}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center">
+                        <svg
+                          className="w-10 h-10 text-stone-300"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={1.5}
+                            d="M6 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm10 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4ZM3 20l4-8 4 4 4-6 6 10H3Z"
+                          />
+                        </svg>
+                      </div>
+                    )}
                   </div>
-                  {item.description && (
-                    <p className="text-sm text-ink-3 pr-12">
-                      {item.description}
-                    </p>
-                  )}
+
+                  {/* Content area */}
+                  <div className="flex flex-col flex-grow p-4 gap-1">
+                    <div className="flex items-start justify-between gap-3">
+                      <h3 className="text-base text-espresso font-display leading-snug group-hover:text-accent transition-colors duration-fast">
+                        {item.name}
+                      </h3>
+                      <span className="text-sm font-medium tracking-wide text-ink shrink-0 pt-0.5">
+                        {formatPrice(item.price)}
+                      </span>
+                    </div>
+                    {item.description && (
+                      <p className="text-xs text-ink-3 leading-relaxed">
+                        {item.description}
+                      </p>
+                    )}
+                  </div>
                 </div>
               ))}
             </motion.div>
