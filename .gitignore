@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Raw assets (original high-res images, already converted to WebP)
+asset/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
