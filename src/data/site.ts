@@ -7,8 +7,8 @@ export const siteConfig = {
     whatsapp: "https://wa.me/62800000000", // placeholder
   },
   location: {
-    address: "Jl. Example Street No. 123, Coffee District", // placeholder
-    mapsLink: "https://maps.google.com", // placeholder
+    address: "Komp Pemda, Jl. AP. Pettarani No.14 Blok E 25, Tidung",
+    mapsLink: "https://maps.app.goo.gl/gYVYr7PXXHBjeHjV6?g_st=ic",
   },
   hours: {
     weekdays: "08:00 - 22:00", // placeholder

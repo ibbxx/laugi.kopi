@@ -27,10 +27,11 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
           className="group flex items-center gap-3 cursor-pointer"
           aria-label="Laugi.Kopi Home"
         >
-          <span className="font-display text-2xl font-semibold tracking-wide text-espresso">
-            Laugi
-            <span className="text-accent font-light italic">.Kopi</span>
-          </span>
+          <img
+            src="/logo.png"
+            alt="Laugi.Kopi"
+            className="h-20 w-auto object-contain"
+          />
         </button>
 
         {/* Links */}
