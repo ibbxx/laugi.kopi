@@ -22,7 +22,7 @@ const MenuImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) => {
   const [loaded, setLoaded] = useState(false);
 
   return (
-    <div className="relative w-full aspect-[4/3] overflow-hidden bg-stone-100">
+    <div className="relative w-full aspect-[4/3] overflow-hidden">
       {!loaded && <Skeleton className="absolute inset-0 rounded-none" />}
       <img
         src={src}
@@ -30,7 +30,7 @@ const MenuImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) => {
         loading="lazy"
         decoding="async"
         onLoad={() => setLoaded(true)}
-        className={`w-full h-full object-cover transition-all duration-500 group-hover:scale-105 ${
+        className={`w-full h-full object-contain transition-all duration-500 group-hover:scale-105 ${
           loaded ? 'opacity-100' : 'opacity-0'
         }`}
       />
@@ -123,7 +123,7 @@ export const MenuSection: React.FC = () => {
                     {item.image ? (
                       <MenuImage src={item.image} alt={item.name} />
                     ) : (
-                      <div className="relative w-full aspect-[4/3] overflow-hidden bg-stone-100 flex items-center justify-center">
+                      <div className="relative w-full aspect-[4/3] overflow-hidden flex items-center justify-center">
                         <svg
                           className="w-10 h-10 text-stone-300"
                           fill="none"
