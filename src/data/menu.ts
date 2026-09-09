@@ -97,6 +97,7 @@ export const menuData: MenuCategory[] = [
       { id: 'fd-2', name: 'Nasi Goreng Laugi', price: 27000, image: '/images/menu/nasi-goreng-laugi.webp' },
       { id: 'fd-3', name: 'Rice Ball', price: 30000, image: '/images/menu/rice-bowl.webp' },
       { id: 'fd-4', name: 'Indomie Goreng Soto/Kaldu Ayam', price: 18000, image: '/images/menu/indomie-goreng.webp' },
+      { id: 'fd-5', name: 'Ayam Geprek Sambal Matah', price: 29000, image: '/images/menu/ayam-geprek-sambal-matah.png' },
     ],
   },
   {
