@@ -35,13 +35,12 @@ export const StorySection: React.FC = () => {
           </h2>
           <div className="text-paper/70 space-y-6 text-sm md:text-base max-w-lg">
             <p>
-              We believe in the slow moments. The quiet morning before the rush, 
-              the afternoon catch-up, and the simple joy of a well-crafted cup.
+              Laugi.Kopi is a place to slow down, enjoy a good cup of coffee, and share meaningful moments.
+              From quiet mornings to casual afternoon conversations, we create a warm space where every visit
+              can be enjoyed at your own pace.
             </p>
             <p>
-              At Laugi.Kopi, every detail is designed to give you space to breathe.
-              From our signature Americano Series to our warm, inviting atmosphere,
-              we're here to be your daily pause.
+              Take a pause. Have a coffee. Stay a little longer.
             </p>
           </div>
         </motion.div>

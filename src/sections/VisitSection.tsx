@@ -68,7 +68,7 @@ export const VisitSection: React.FC = () => {
                   </svg>
                 </a>
                 <a 
-                  href={siteConfig.social.whatsapp}
+                  href="https://wa.me/message/OTVVVXID2TRZD1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-espresso hover:text-accent transition-colors duration-fast"
