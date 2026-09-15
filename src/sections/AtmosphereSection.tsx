@@ -51,10 +51,10 @@ export const AtmosphereSection: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
 
           {[
-            { src: '/images/venue/lokasi.webp',    alt: 'Tampak depan Luciana Coffee', delay: 0 },
-            { src: '/images/venue/outdoor-1.webp', alt: 'Area outdoor Luciana Coffee', delay: 0.08 },
-            { src: '/images/venue/outdoor-2.webp', alt: 'Sudut outdoor Luciana Coffee', delay: 0.16 },
-            { src: '/images/venue/indoor-1.webp',  alt: 'Interior Luciana Coffee',     delay: 0.24 },
+            { src: '/images/venue/lokasi.webp',    alt: 'Lokasi Laugi Kopi',           delay: 0 },
+            { src: '/images/venue/outdoor-1.webp', alt: 'Area outdoor Laugi Kopi',     delay: 0.08 },
+            { src: '/images/venue/indoor-1.webp',  alt: 'Tampak depan Laugi Kopi',     delay: 0.16 },
+            { src: '/images/venue/indoor-2.webp',  alt: 'Interior dalam Laugi Kopi',   delay: 0.24 },
           ].map(({ src, alt, delay }) => (
             <VenueImage key={src} src={src} alt={alt} delay={delay} />
           ))}

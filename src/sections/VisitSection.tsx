@@ -42,14 +42,14 @@ export const VisitSection: React.FC = () => {
           >
             <div>
               <h3 className="text-sm font-medium tracking-[0.1em] uppercase text-ink-3 mb-3">Location</h3>
-              <p className="text-lg text-espresso">{siteConfig.location.address}</p>
+              <p className="text-lg text-espresso whitespace-pre-line">{siteConfig.location.address}</p>
             </div>
 
             <div>
               <h3 className="text-sm font-medium tracking-[0.1em] uppercase text-ink-3 mb-3">Hours</h3>
               <ul className="text-lg text-espresso space-y-1">
-                <li><span className="inline-block w-24 text-ink-2">Weekdays</span> {siteConfig.hours.weekdays}</li>
-                <li><span className="inline-block w-24 text-ink-2">Weekends</span> {siteConfig.hours.weekends}</li>
+                <li><span className="inline-block w-36 text-ink-2">Minggu - Kamis</span> {siteConfig.hours.sundayToThursday}</li>
+                <li><span className="inline-block w-36 text-ink-2">Jumat - Sabtu</span> {siteConfig.hours.fridayToSaturday}</li>
               </ul>
             </div>
 

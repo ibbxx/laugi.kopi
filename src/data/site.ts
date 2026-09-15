@@ -7,11 +7,11 @@ export const siteConfig = {
     whatsapp: "https://wa.me/62800000000", // placeholder
   },
   location: {
-    address: "Komp Pemda, Jl. AP. Pettarani No.14 Blok E 25, Tidung",
+    address: "📍Based In Makassar\nJl.A.P.Pettarani Blok E25/14 Kompleks Pemda",
     mapsLink: "https://maps.app.goo.gl/gYVYr7PXXHBjeHjV6?g_st=ic",
   },
   hours: {
-    weekdays: "08:00 - 22:00", // placeholder
-    weekends: "07:00 - 23:00", // placeholder
+    sundayToThursday: "08.00 - 00.00",
+    fridayToSaturday: "08.00 - 01.00",
   }
 };

@@ -18,15 +18,16 @@ export const menuData: MenuCategory[] = [
     id: 'signature-coffee',
     name: 'Signature Coffee',
     items: [
-      { id: 'sc-1', name: 'Coffee Aren Hot', price: 20000, image: '/images/menu/coffee-aren-hot.webp' },
+      { id: 'sc-1', name: 'Coffee Aren Hot', price: 23000, image: '/images/menu/coffee-aren-hot.webp' },
       { id: 'sc-2', name: 'Coffee Aren Ice', price: 23000, image: '/images/menu/coffee-aren-ice.webp' },
-      { id: 'sc-3', name: 'Coffee Latte', price: 22000, image: '/images/menu/coffee-latte.webp' },
+      { id: 'sc-3', name: 'Coffee Latte', price: 20000, image: '/images/menu/coffee-latte.webp' },
       { id: 'sc-4', name: 'Coffee Pandan', price: 26000, image: '/images/menu/coffee-pandan.webp' },
       { id: 'sc-5', name: 'Coffee Banana', price: 26000, image: '/images/menu/coffee-banana.webp' },
-      { id: 'sc-6', name: 'Butterscotch', price: 29000, image: '/images/menu/butterscotch.webp' },
+      { id: 'sc-6', name: 'Butterscotch', price: 28000, image: '/images/menu/butterscotch.webp' },
       { id: 'sc-7', name: 'Coffee Caramel', price: 26000, image: '/images/menu/coffee-caramel.webp' },
       { id: 'sc-8', name: 'Coffee Susu Basic (Hot)', price: 15000, image: '/images/menu/coffee-susu-basic-hot.webp' },
-      { id: 'sc-9', name: 'Coffee Susu Creamy', price: 22000, image: '/images/menu/coffee-susu-creamy.webp' },
+      { id: 'sc-9', name: 'Coffee Susu Creamy', price: 20000, image: '/images/menu/coffee-susu-creamy.webp' },
+      { id: 'sc-10', name: 'Moccacino', price: 24000 },
     ],
   },
   {
@@ -66,6 +67,7 @@ export const menuData: MenuCategory[] = [
       { id: 'mb-3', name: 'Choco Cheese', price: 25000, image: '/images/menu/choco-cheese.webp' },
       { id: 'mb-4', name: 'Choco Ice', price: 23000, image: '/images/menu/choco-ice.webp' },
       { id: 'mb-5', name: 'UBE Laugi', price: 22000, image: '/images/menu/ube-laugi.webp' },
+      { id: 'mb-6', name: 'UBE Cheese', price: 25000 },
     ],
   },
   {
@@ -86,16 +88,17 @@ export const menuData: MenuCategory[] = [
       { id: 'sn-2', name: 'Pisang Goreng Palm Sugar', price: 19000, image: '/images/menu/pisang-goreng-palm-sugar.webp' },
       { id: 'sn-3', name: 'Pisang Goreng Ori', price: 17000, image: '/images/menu/pisang-goreng.webp' },
       { id: 'sn-4', name: 'Kentang Goreng', price: 15000, image: '/images/menu/kentang-goreng.webp' },
-      { id: 'sn-5', name: 'Mix Plater', price: 27000, image: '/images/menu/mix-platter.webp' },
+      { id: 'sn-5', name: 'Mix Platter', price: 25000, image: '/images/menu/mix-platter.webp' },
+      { id: 'sn-6', name: 'Pisang Goreng Coklat Keju', price: 22000, image: '/images/menu/pisang-goreng-coklat-keju.webp' },
     ],
   },
   {
     id: 'food',
     name: 'Food',
     items: [
-      { id: 'fd-1', name: 'Nasi Ayam Goreng Laugi', price: 30000, image: '/images/menu/ayam-goreng-laugi.webp' },
+      { id: 'fd-1', name: 'Nasi Ayam Goreng Laugi', price: 29000, image: '/images/menu/ayam-goreng-laugi.webp' },
       { id: 'fd-2', name: 'Nasi Goreng Laugi', price: 27000, image: '/images/menu/nasi-goreng-laugi.webp' },
-      { id: 'fd-3', name: 'Rice Ball', price: 30000, image: '/images/menu/rice-bowl.webp' },
+      { id: 'fd-3', name: 'Rice Bowl', price: 28000, image: '/images/menu/rice-bowl.webp' },
       { id: 'fd-4', name: 'Indomie Goreng Soto/Kaldu Ayam', price: 18000, image: '/images/menu/indomie-goreng.webp' },
       { id: 'fd-5', name: 'Ayam Geprek Sambal Matah', price: 29000, image: '/images/menu/ayam-geprek-sambal-matah.png' },
     ],
@@ -106,7 +109,7 @@ export const menuData: MenuCategory[] = [
     items: [
       { id: 'ad-1', name: 'Nasi', price: 5000, image: '/images/menu/rice.webp' },
       { id: 'ad-2', name: 'Air Mineral', price: 5000, image: '/images/menu/air-mineral.webp' },
-      { id: 'ad-3', name: 'Telur', price: 4000, image: '/images/menu/telur.webp' },
+      { id: 'ad-3', name: 'Telur', price: 3000, image: '/images/menu/telur.webp' },
     ],
   },
 ];
